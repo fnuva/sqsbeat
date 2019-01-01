@@ -1,0 +1,24 @@
+- key: sqsbeat
+  title: sqsbeat
+  description:
+  fields:
+    - name: region
+        type: keyword
+        required: true
+        description: >
+         AWS region
+    - name: queueName
+      type: keyword
+      required: true
+      description: >
+        Name of queue data will be fetched
+    - name: credentials.AccessKey
+      type: keyword
+      required: true
+      description: >
+        access key to connect sqs
+    - name: credentials.SecretKey
+      type: keyword
+      required: true
+      description: >
+        secret key to connect sqs
