@@ -3,7 +3,7 @@
 Welcome to sqsbeat.
 
 Ensure that this folder is at the following location:
-`${GOPATH}/src/github.com/alisahin405/sqsbeat`
+`${GOPATH}/src/github.com/fnuva/sqsbeat`
 
 ## Getting Started with sqsbeat
 
